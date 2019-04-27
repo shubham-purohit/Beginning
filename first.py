@@ -29,3 +29,10 @@ model.fit(x_train,y_train,epochs=5)
 
 
 val_loss, val_acc = model.evaluate(x_test, y_test)
+
+#making predictions and verifying
+pred = model.predict(x_test)
+pred = np.argmax(pred[1])
+plt.imshow(x_test[1])
+plt.show()
+print(pred)
