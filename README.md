@@ -3,4 +3,4 @@ A new start
 
 
 ###Sample image for testing(Number 7)
-![Number 7](/image/Number_7.png)
+![Number 7](/Image/Number_7.png)
